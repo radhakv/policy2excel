@@ -8,8 +8,8 @@ RUN apk add --update --no-cache bash zlib-dev musl python3-dev freetype-dev make
     pip install xlsxwriter && \
     apk del build-dependencies && \
     git clone https://github.com/radhakv/policy2excel.git /usr/local/bin/policy2excel && \
-    chmod 755 /usr/local/bin/policy2excel/policy2excel && \
-    chmod 755 /usr/local/bin/policy2excel/policy2excel2 && \
+    chmod 755 /usr/local/bin/policy2excel/bin/policy2excel && \
+    chmod 755 /usr/local/bin/policy2excel/bin/policy2excel2 && \
     apk del git && \
     rm -rf /var/cache/apk/* /tmp/* /root/src/
 CMD ["sh"]

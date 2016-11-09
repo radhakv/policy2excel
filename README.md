@@ -9,9 +9,11 @@ NetBackup Policy to Excel tool
 # Collecting the NetBackup policy output
 
 Run bppllist command to collect the output ( Netbackup 7.7.x)
+
 1. bppllist -allpolicies -compact_json > policy_out.json
 
 Run bppllist command to collect the output ( Netbackup 7.6.x and below)
+
 1. bppllist -allpolicies -l > policy_file.out
 
 # Setup Docker image

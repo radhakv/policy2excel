@@ -16,12 +16,13 @@ Run bppllist command to collect the output ( Netbackup 7.6.x and below)
 
 1. bppllist -allpolicies -l > policy_file.out
 
-# Setup Docker image
+# Use Docker Hub
 
 1. docker pull radhakv/policy2excel
 
-or 
-2. Download the docker file from the repo to policy2excel folder
+# Setup Docker image
+
+1. Download the docker file from the repo to policy2excel folder
 2. run 'docker build  -t policy2excel policy2excel' 
 
 # Running the tool ( NBU 7.7.x )
